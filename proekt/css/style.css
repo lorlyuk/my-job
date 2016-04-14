@@ -46,14 +46,13 @@ ul.menu {
 	list-style: none;
 }
 div.logo {
-	font-size: 45px;
+	font-size: 2.81em;
 	color: #fff;
 	padding-top: 10px;
 	margin-left: -3%;
 }
  .com img {
 	margin: 0px 5px;
-	background: red;
 }
 div .male  {
 	text-align: center;
@@ -134,7 +133,7 @@ margin: 0px auto;
 }
 /*-------------------------service block------------------*/
 .service {
-height: 45vh;
+height: 100%;
 background: rgb(240,240,242);
 padding-top: 5vh;
 padding-bottom: 15vh;
@@ -162,7 +161,7 @@ margin: 0px auto;
 }
 /*--------------------------Lastes projects----------------------*/
 .lastes {
-	height: 260vh;
+	height: 200%;
 	padding-left: 6vw;
 	padding: 4vh;
 	margin: 0px auto;
@@ -176,7 +175,7 @@ margin: 0px auto;
 }
 .menu2 {
 	margin: 0px auto;
-	width: 70%;
+	width: 75%;
 }
 div.menu2 li {
 display: inline-block;
@@ -211,14 +210,15 @@ color: blue;
 
 /*---------------------blog-----------------------*/
 .blog {
-	height: 70vh;
+	height: 35%;
 	background: rgb(44,62,106);
 	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-bottom: 5%;
+	margin: 0 auto;
 }
 .blog h2 {
 	color: white;
-	width: 18%;
+	width: 20%;
 	padding-bottom: 3vh;
 }
 div.textblog .bl{
@@ -263,7 +263,7 @@ div.textblog .bl{
 /*---------------------------last-----------------*/
 
 .fut {
-	height: 70vh;
+	height: 40%;
 	background: rgb(0,0,0);
 	color: white;
 	margin: 0px auto;
@@ -282,8 +282,7 @@ div.textblog .bl{
 	display: table-cell;
 	padding: 40px;
 	width: 20%;
-	
-	}
+}
 .cell3 h3 {
 	text-align: left;
 	width: 75%;
@@ -291,7 +290,6 @@ div.textblog .bl{
 	padding-left: 10px;
 	padding-bottom: 20px;
 	margin-left: 14%;
-	
 }
 .cell3 p {
 	background: rgb(0,0,0);
@@ -300,20 +298,118 @@ div.textblog .bl{
 	}
 div.map {
 	margin: 0px auto;
-	padding-left: 8%;
-	padding-bottom: 3%;
+	padding-left: 10.5%;
+	padding-bottom: 2%;
 	border-top: 2px solid #111111;
-	border-bottom: 2px solid #111111;
+
 }
 .map img {
-	width: 1116px;
+	width: 947px;
 	height: 325px;
-
-	
 }
 .futer {
-	height: 10%;
-	padding-top: 60px;
+	height: 6vh;
+	padding-top: 4vh;
 	background: #111111;
-	text-align: center;
+	text-align: left;
+	padding-left: 3.5%;
+	color: white;
+	border-top: 1px solid #222222;
+}
+
+/*------------------------MEDIA-------------------------*/
+
+@media screen and (max-width: 769px) {
+    header .cell {
+		margin-left: 20px;
+		margin-top: 2px;
+		margin-right: 2px;
+		vertical-align: top;
+		display: inline-block;
+		width: 15%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.cell2 {
+	display: inline-block;
+	width: 33%;
+}
+.cell2 img {
+	padding: 5px;
+	width: 70%;
+}
+.cell2 h5 {
+    padding: 2%;
+    padding-bottom: 5%;
+    font-size:1.0em;
+    text-align: center;
+}
+.cell2 span {
+    font-size:0.5em; 
+ }
+ .cell2 .text {
+    display:block;
+    position:absolute;
+    left:-5vw;
+    
+ 
+}
+} 
+    
+@media screen and (max-width: 480px) and {
+    header .table{
+        font-size: 0.7em;
+        display: table;
+		width: 100%;
+		margin: 0px auto;
+		}
+	header .row {
+		
+		padding: 2px;
+		margin: 2px;
+		width: 20%;
+		}
+	header .cell {
+		margin-left: 20px;
+		margin-top: 2px;
+		margin-right: 2px;
+		vertical-align: top;
+		display: inline-block;
+		width: 25%;
+		padding-left: 5px;
+		padding-right: 5px;
+		}
+ 	.cell:last-child {
+		display: none;
+ 		}
+ 	.three td {
+	padding: 1vh 1vw;
+	font-size: 1.5em;
+	}
+	.service table td img {
+	width: 70%;
+	opacity: 0.71;
+}
+.map img {
+	display: none;
+}
+.cell3 {
+	display: inline-block;
+	padding: 2%;
+	width: 60%;
+}
+h1 {
+	font-size: 1.19em;
+	}
+
+.cell2 {
+	display: inline-block;
+	width: 110%;
+}
+.cell2 img {
+	padding: 5px;
+	width: 90%;
+}
+
 }
