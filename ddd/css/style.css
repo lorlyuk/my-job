@@ -1,0 +1,25 @@
+.rrr {
+background: red;}
+.fff {
+background: green;}
+.yyy {
+background: yellow;}
+.zzz {
+background: black;}
+.bbb {
+background: blue;}
+.mmm {
+background: #ccc;}
+
+
+.up {
+z-index: 2;
+position: absolute;
+background: orange;
+height:450px;
+display:block;
+margin-top:-750px;
+}
+div {
+	height: 300px;
+	}
