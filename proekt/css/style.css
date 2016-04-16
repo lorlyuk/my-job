@@ -320,7 +320,167 @@ div.map {
 }
 
 /*------------------------MEDIA-------------------------*/
-@media screen and (max-width: 480px)  {
+ 
+@media screen and (max-width: 1200px) {
+		header .table {
+        font-size: 1.2em;
+
+     }
+	
+	header .cell {
+		margin-left: 1%;
+		margin-top: 2px;
+		margin-right: 2px;
+		width: 15%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.cell:last-child {
+		width: 10%;
+ 	}
+.cell2 {
+		display: inline-block;
+		width: 33%;
+		
+	}
+	.cell2 img {
+		padding: 2px;
+		width: 95%;
+		
+	}
+.table2 {
+		width: 80%;
+}
+.row2 {
+		text-align: center;
+}
+.blog h2 {
+	width: 28%;
+	}
+.lastes h2 {
+	width: 28%;
+
+}
+.menu2 {
+	width: 80%;
+}	
+div.menu2 li {
+margin-right: 1vw;
+margin-left: 1vw;
+}
+
+.map img {
+	width: 80%;
+}
+}
+@media screen and (max-width: 1024px) {
+ header .table {
+        font-size: 1.1em;
+
+     }
+	
+	header .cell {
+		margin-left: 1%;
+		margin-top: 2px;
+		margin-right: 2px;
+		vertical-align: top;
+		display: inline-block;
+		width: 18%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	
+div .face {
+	text-align: center;
+	padding-right: 5%;
+	width: 5%;
+	display: none;
+	}
+.cell2 {
+		display: inline-block;
+		width: 33%;
+		
+	}
+	.cell2 img {
+		padding: 2px;
+		width: 95%;
+		
+	}
+.table2 {
+		width: 80%;
+}
+.row2 {
+		text-align: center;
+}
+.blog h2 {
+	width: 28%;
+	}
+.lastes h2 {
+	width: 28%;
+
+}
+.menu2 {
+	width: 80%;
+}	
+div.menu2 li {
+margin-right: 1vw;
+margin-left: 1vw;
+}
+
+.map img {
+	width: 80%;
+}
+
+
+@media screen and (max-width: 736px) {
+   	
+    header .table {
+        font-size: 1.2em;
+      	
+	}
+	
+	header .cell {
+		margin-left: 8%;
+		margin-top: 1%;
+		margin-right: 1%;
+		display: inline-block;
+		width: 28%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+ 	.cell:last-child {
+		display: none;
+ 	}
+ 	.three td {
+		padding: 1vh 1vw;
+		font-size: 1.8em;
+	}
+	.service table td img {
+		width: 70%;
+		opacity: 0.71;
+	}
+	.map img {
+		display: none;
+	}
+	.cell3 {
+		display: inline-block;
+		padding: 2%;
+		width: 60%;
+	}
+	h1 {
+		font-size: 1.19em;
+	}
+
+	.cell2 {
+		display: inline-block;
+		width: 110%;
+	}
+	.cell2 img {
+		padding: 5px;
+		width: 90%;
+	}
+	@media screen and (max-width: 480px)  {
     header .table{
         font-size: 0.7em;
       	
@@ -333,8 +493,8 @@ div.map {
 		vertical-align: top;
 		display: inline-block;
 		width: 25%;
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 2%;
+		padding-right: 2%;
 	}
 	
  	.cell:last-child {
@@ -369,149 +529,4 @@ div.map {
 		width: 90%;
 	}
 
-}
-
-@media screen and (max-width: 736px) {
-   	
-    header .table {
-        font-size: 1.2em;
-      	
-	}
-	
-	header .cell {
-		margin-left: 35px;
-		margin-top: 2px;
-		margin-right: 2px;
-		vertical-align: top;
-		display: inline-block;
-		width: 30%;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
- 	.cell:last-child {
-		display: none;
- 	}
- 	.three td {
-		padding: 1vh 1vw;
-		font-size: 1.8em;
-	}
-	.service table td img {
-		width: 70%;
-		opacity: 0.71;
-	}
-	.map img {
-		display: none;
-	}
-	.cell3 {
-		display: inline-block;
-		padding: 2%;
-		width: 60%;
-	}
-	h1 {
-		font-size: 1.19em;
-	}
-
-	.cell2 {
-		display: inline-block;
-		width: 110%;
-	}
-	.cell2 img {
-		padding: 5px;
-		width: 90%;
-	}
-
-}
- @media screen and (max-width: 1024px) {
- header .table {
-        font-size: 1.1em;
-     }
-	
-	header .cell {
-		margin-left: 5px;
-		margin-top: 2px;
-		margin-right: 2px;
-		vertical-align: top;
-		display: inline-block;
-		width: 18%;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-	.com img {
-	margin: 0px 20px;
-}
-div .face {
-	text-align: center;
-	padding-right: 10px;
-	width: 15%;
-	}
-.cell2 {
-		display: inline-block;
-		width: 33%;
-		
-	}
-	.cell2 img {
-		padding: 2px;
-		width: 95%;
-		
-	}
-.table2 {
-		width: 80%;
-}
-.row2 {
-		text-align: center;
-}
-.blog h2 {
-	width: 28%;
-	}
-.lastes h2 {
-	width: 28%;
-
-}
-.menu2 {
-	width: 80%;
-}	
-div.menu2 li {
-margin-right: 1vw;
-margin-left: 1vw;
-}
-
-.map img {
-	width: 80%;
-}
-}
-@media screen and (max-width: 1200px) {
-.cell2 {
-		display: inline-block;
-		width: 33%;
-		
-	}
-	.cell2 img {
-		padding: 2px;
-		width: 95%;
-		
-	}
-.table2 {
-		width: 80%;
-}
-.row2 {
-		text-align: center;
-}
-.blog h2 {
-	width: 28%;
-	}
-.lastes h2 {
-	width: 28%;
-
-}
-.menu2 {
-	width: 80%;
-}	
-div.menu2 li {
-margin-right: 1vw;
-margin-left: 1vw;
-}
-
-.map img {
-	width: 80%;
-}
 }
