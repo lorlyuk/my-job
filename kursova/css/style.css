@@ -45,7 +45,9 @@ font-weight: bold;
 padding: 8% 2% 3% 2%;
 font-size: 20px;
 }
-
+.conteiner1 p, .conteiner1 h3 {
+    color: #000;
+}
 
 .yellow_number {
 	color: #ffd800;
@@ -96,21 +98,26 @@ font-size: 20px;
 /*-----------------------------------------------------------*/
 .conteiner2 {
 	text-align: center;
-	height: 550px;
-	padding: 10%;
+	
 }
 .col-md-4 .col-lg-4 {
 	color: black;
 }
-h3, h2, p {
-	color: #000;
+
+.conteiner2 p, .conteiner2 h3, .conteiner2 h2 {
+    color: #000;
+    padding-top: 3%;
 }
+.conteiner2 img {
+    padding-bottom: 5%;
+}
+
+/*-----------------------------------------------------------*/
 .ecspiriant {
 	background: url('../img/skills.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 650px;
-	text-align: center;
 	padding-top: 15%;
 }
 .col-md-3 .col-lg-3 {
@@ -139,11 +146,14 @@ footer {
 	background-repeat: no-repeat;
 	height: 500px;
 }
+/*----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------*/
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 nav ul {
 	text-align: center;
-
 }
 nav li a {
 	padding: 15px;
@@ -167,7 +177,7 @@ font-size: 20px;
     width: 0;
     height: 0;
     left: 45%;
-    top: -38px;
+    top: -23px;
     position: absolute;
     border-bottom: 26px solid #ffd800;
     border-left: 13px solid transparent;
@@ -175,7 +185,7 @@ font-size: 20px;
 }
 #comment_bubble2 {
     width: auto;
-    height: 130px;
+    height: 175px;
     padding: 5%;
 }
 #comment_bubble2:before {
@@ -183,7 +193,7 @@ font-size: 20px;
     width: 0;
     height: 0;
     left: 45%;
-    top: 130px;
+    top: 175px;
     position: absolute;
     border-top: 26px solid #49def4;
     border-left: 13px solid transparent;
@@ -200,20 +210,64 @@ font-size: 20px;
     width: 0;
     height: 0;
     left: 45%;
-    top: -38px;
+    top: -23px;
     position: absolute;
     border-bottom: 26px solid #56de96;
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
 }
 .conteiner1 p {
-padding-bottom: 5%;
+padding-bottom: 8%;
+}
+.conteiner2 h2 {
+    padding-bottom: 5%;
+}
+.conteiner2 img {
+    padding-top: 10%;
+}
+.conteiner2 {
+height: 185vh;
+}
+.raund {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    font-size: 30px;
+    
+}
+.raund p {
+    text-align: center;
+    color: white;
+    padding-top: 43%;
+}
+.ecspiriant.col-xs-12, .col-sm-3{
+   padding-left: 20%;
 }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-	
+.ecspiriant {
+    height: 165vh;
+}
+.raund {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    font-size: 30px;
+    margin-top: 8vh;
+}
+.raund p {
+    text-align: center;
+    color: white;
+    padding-top: 43%;
+}
+.ecspiriant.col-xs-8, .col-sm-6{
+  display: inline-block;
+  padding-left: 40%;
+}
 }
 
 /* Small Devices, Tablets */
@@ -248,17 +302,17 @@ div .line {
     background-color: #efefef;
 }
 #comment_bubble1 {
-    width: 355px;
+    width: auto;
     height: 130px;
     background: #ffd800;
     position: relative;
     padding: 8%;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-#comment_bubble1:before {
+#comment_bubble1:after {
     content: "";
     width: 0;
     height: 0;
@@ -269,14 +323,17 @@ div .line {
     border-right: 26px solid #ffd800;
     border-bottom: 13px solid transparent;
 }
+#comment_bubble1:before {
+    display: none;
+}
 #comment_bubble2 {
-    width: 355px;
-    height: 130px;
+    width: auto;
+    height: 160px;
     background: #49def4;
     position: relative;
     padding: 5%;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -285,24 +342,24 @@ div .line {
     width: 0;
     height: 0;
     left: 100%;
-    top: 55px;
+    top: 65px;
     position: absolute;
     border-top: 13px solid transparent;
     border-left: 26px solid #49def4;
     border-bottom: 13px solid transparent;
 }
 #comment_bubble3{
-    width: 355px;
+    width: auto;
     height: 130px;
     background: #56de96;
     position: relative;
     padding: 7%;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
  }
 
-#comment_bubble3:before {
+#comment_bubble3:after {
    content: "";
     width: 0;
     height: 0;
@@ -313,10 +370,51 @@ div .line {
     border-right: 26px solid #56de96;
     border-bottom: 13px solid transparent;
 }
+#comment_bubble3:before {
+    display: none;
+}
+.conteiner2 {
+    height: 245vh;
+}
+.raund {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    font-size: 30px;
+   
+}
+.raund p {
+    text-align: center;
+    color: white;
+    padding-top: 43%;
+    font-size: 18px;
+}
+.ecspiriant {
+    padding-left: 10%;
+    height: 65vh;
+}
+.ecspiriant.col-xs-12, .col-sm-3{
+   text-align: center;
+   padding: 15px;
+
+}
+.ecspiriant.col-xs-8, .col-sm-6{
+  display: inline-block;
+  padding: 2%;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+.conteiner2 {
+    height: 65vh;
+    padding: 10%;
+}
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1024px) {
 div .line {
     margin: 0 auto;
 }
@@ -346,11 +444,11 @@ div .line {
     position: absolute;
     background-color: #efefef;
 }
+.conteiner2 {
+    text-align: center;
+    height: 75vh;
+    padding: 10%;
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 1024px) {
-
 }
 
  /* Large Devices, Wide Screens */
