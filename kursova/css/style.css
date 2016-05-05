@@ -3,7 +3,7 @@ header {
 	background-image: url('../img/header.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:750px;
+	height:100vh;
 	width: 100%;
 	padding-top: 3%;
 	padding-right: 5%;
@@ -114,10 +114,11 @@ font-size: 20px;
 
 /*-----------------------------------------------------------*/
 .ecspiriant {
-	background: url('../img/skills.png');
+    background-color:  #efefef;
+	background-image: url('../img/skills.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 650px;
+	height: 65vh;
 	padding-top: 15%;
 }
 .col-md-3 .col-lg-3 {
@@ -136,12 +137,40 @@ font-size: 20px;
 	color: white;
 	padding-top: 43%;
 }
+.portfolio {
+    background-color:  #efefef;
+}
+.portfolio h2 {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+}
 .portfolio img {
 	width: 90%;
 	height: 100%;
 }
+.table2 {
+    display: table;
+    margin: 0px auto;
+    padding: 5px;
+    
+}
+.row2 {
+    display: table-row;
+    
+}
+.cell2 {
+    display: table-cell;
+
+}
+.cell2 img {
+    padding: 1px;
+}
 footer {
-	background: url('../img/footer.png');
+    background-color:  #efefef;
+	background-image: url('../img/footer.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
@@ -226,7 +255,11 @@ padding-bottom: 8%;
     padding-top: 10%;
 }
 .conteiner2 {
-height: 185vh;
+height: 165vh;
+}
+.ecspiriant {
+    height: 125vh;
+    padding-top: 35%;
 }
 .raund {
     width: 150px;
@@ -240,16 +273,26 @@ height: 185vh;
     text-align: center;
     color: white;
     padding-top: 43%;
+    font-size: 20px;
 }
-.ecspiriant.col-xs-12, .col-sm-3{
-   padding-left: 20%;
+.ecspiriant.col-xs-8, .col-sm-6{
+   padding-left: 35%;
 }
+.cell2 {
+  display: inline-block;
+    width: 100%;
+    text-align: center;
+    }
+.cell2 img {
+    padding: 5px;
+    width: 90%;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 .ecspiriant {
-    height: 165vh;
+    height: 190vh;
 }
 .raund {
     width: 200px;
@@ -266,7 +309,7 @@ height: 185vh;
 }
 .ecspiriant.col-xs-8, .col-sm-6{
   display: inline-block;
-  padding-left: 40%;
+  padding-left: 35%;
 }
 }
 
@@ -374,14 +417,18 @@ div .line {
     display: none;
 }
 .conteiner2 {
-    height: 245vh;
+    height: 225vh;
+}
+div .raund {
+    background: blue;
 }
 .raund {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 10px solid yellow;
     font-size: 30px;
+    background: red;
    
 }
 .raund p {
@@ -391,12 +438,9 @@ div .line {
     font-size: 18px;
 }
 .ecspiriant {
-    padding-left: 10%;
-    height: 65vh;
-}
-.ecspiriant.col-xs-12, .col-sm-3{
-   text-align: center;
-   padding: 15px;
+    padding-left: 15%;
+    height: 85vh;
+    padding-top: 5%;
 
 }
 .ecspiriant.col-xs-8, .col-sm-6{
@@ -408,11 +452,35 @@ div .line {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 .conteiner2 {
-    height: 65vh;
+    height: 75vh;
     padding: 10%;
 }
+.ecspiriant {
+    padding-left: 5%;
+    height: 85vh;
+    padding-top: 10%;
 
 }
+
+.cell2 {
+        display: inline-block;
+        width: 33%;
+        vertical-align: top;
+        
+    }
+.cell2 img {
+        padding: 2px;
+        width: 100%;
+        
+    }
+.table2 {
+        width: 80%;
+}
+.row2 {
+        text-align: center;
+}
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 1024px) {
 div .line {
@@ -448,6 +516,22 @@ div .line {
     text-align: center;
     height: 75vh;
     padding: 10%;
+}
+
+.raund {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    font-size: 30px;
+    background: red;
+   
+}
+.raund p {
+    text-align: center;
+    color: white;
+    padding-top: 43%;
+    font-size: 26px;
 }
 }
 
