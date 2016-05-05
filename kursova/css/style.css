@@ -1,3 +1,4 @@
+
 header {
 	background: #efefef;
 	background-image: url('../img/header.png');
@@ -173,7 +174,7 @@ footer {
 	background-image: url('../img/footer.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 200vh;
 }
 /*----------------------------------------------------------------*/
 
@@ -255,11 +256,13 @@ padding-bottom: 8%;
     padding-top: 10%;
 }
 .conteiner2 {
-height: 165vh;
+height: 200vh;
+padding: 15px;
 }
 .ecspiriant {
-    height: 125vh;
-    padding-top: 35%;
+    height: 155vh;
+    padding: 15px;
+    padding-top: 35%; 
 }
 .raund {
     width: 150px;
@@ -275,8 +278,9 @@ height: 165vh;
     padding-top: 43%;
     font-size: 20px;
 }
-.ecspiriant.col-xs-8, .col-sm-6{
+.ecspiriant .cell{
    padding-left: 35%;
+   background: red;
 }
 .cell2 {
   display: inline-block;
@@ -287,30 +291,46 @@ height: 165vh;
     padding: 5px;
     width: 90%;
     }
+.cell1 {
+    display: inline-block;
+    padding: 15%;
 }
+.cell1 img {
+    padding: 2% 5%;
+}
+.cell1 .my_foto {
+    width: 70%;
+    padding-top: 30%; 
+    padding-left: 25%;
+}
+.cell1 div p{
+display: inline-block;
+ height: 30px;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ vertical-align: top;
+}
+.cell1 h2, .cell1 h3 {
+    padding: 5%;
+}
+.cell1 h2 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+form .yellow_button {
+   margin-top: 5%;
+   width: 100%;
+   background: #fdc426;
+}
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-.ecspiriant {
-    height: 190vh;
+.conteiner2 {
+height: 240vh;
+padding: 15px;
 }
-.raund {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 10px solid yellow;
-    font-size: 30px;
-    margin-top: 8vh;
-}
-.raund p {
-    text-align: center;
-    color: white;
-    padding-top: 43%;
-}
-.ecspiriant.col-xs-8, .col-sm-6{
-  display: inline-block;
-  padding-left: 35%;
-}
+
 }
 
 /* Small Devices, Tablets */
@@ -416,8 +436,12 @@ div .line {
 #comment_bubble3:before {
     display: none;
 }
+.cell {
+display: inline-block;
+}
 .conteiner2 {
-    height: 225vh;
+    height: 295vh;
+    padding-bottom: 3%;
 }
 div .raund {
     background: blue;
@@ -439,11 +463,11 @@ div .raund {
 }
 .ecspiriant {
     padding-left: 15%;
-    height: 85vh;
+    height: 185vh;
     padding-top: 5%;
 
 }
-.ecspiriant.col-xs-8, .col-sm-6{
+.ecspiriant.cell {
   display: inline-block;
   padding: 2%;
 }
