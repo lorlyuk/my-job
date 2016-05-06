@@ -18,6 +18,11 @@ ul li {
 }
 nav a {
 	padding: 15px;
+    
+}
+nav a:hover {
+    text-decoration: none;
+    color: #fff;
 }
  header div {
 	text-align: center;
@@ -168,6 +173,17 @@ font-size: 20px;
 }
 .cell2 img {
     padding: 1px;
+}
+.cell2 img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.cell2 img:hover {
+   -webkit-filter: grayscale(100%);
 }
 footer {
     background-color:  #efefef;
@@ -590,7 +606,7 @@ div .line {
     margin: 0 auto;
 }
 .line {
-    height: 200px;
+    height: 190px;
     width: 3px;
     border-left: 1px solid #c1c1c1;
     position: relative;
@@ -604,6 +620,7 @@ div .line {
     right: -7px;
     position: absolute;
     background-color: #efefef;
+    margin-top: 55px;
 }
 .small_raund1 {
     width: 30px;
@@ -614,6 +631,7 @@ div .line {
     right: -12px;
     position: absolute;
     background-color: #efefef;
+    margin-top: 50px;
 }
 .conteiner2 {
     text-align: center;
@@ -656,6 +674,9 @@ div .line {
  header div {
     text-align: center;
     padding: 7%;
+}
+.my_foto {
+    padding-left: 40%;
 }
 
 }
