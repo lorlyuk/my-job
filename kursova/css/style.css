@@ -99,7 +99,6 @@ font-size: 20px;
 /*-----------------------------------------------------------*/
 .conteiner2 {
 	text-align: center;
-	
 }
 .col-md-4 .col-lg-4 {
 	color: black;
@@ -174,7 +173,7 @@ footer {
 	background-image: url('../img/footer.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 200vh;
+	height: 80vh;
 }
 /*----------------------------------------------------------------*/
 
@@ -256,13 +255,12 @@ padding-bottom: 8%;
     padding-top: 10%;
 }
 .conteiner2 {
-height: 200vh;
+height: 135vh;
 padding: 15px;
 }
 .ecspiriant {
-    height: 185vh;
-
-      
+    height: 175vh;
+    padding-top: 35%;
 }
 .raund {
     width: 150px;
@@ -279,10 +277,9 @@ padding: 15px;
     font-size: 20px;
 }
 .ecspiriant .cell{
-   padding-left: 35%;
+   padding-left: 37%;
    margin-top: 15%;
-   
-}
+ }
 .cell2 {
   display: inline-block;
     width: 100%;
@@ -328,7 +325,7 @@ form .yellow_button {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 .conteiner2 {
-height: 240vh;
+height: 160vh;
 padding: 15px;
 }
 
@@ -438,38 +435,62 @@ div .line {
     display: none;
 }
 .conteiner2 {
-    height: 295vh;
+    height: 75vh;
     padding-bottom: 3%;
-}
-div .raund {
-    background: blue;
+    padding-top: 15%;
 }
 .raund {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 10px solid yellow;
-    font-size: 30px;
-       
+           
 }
 .raund p {
     text-align: center;
     color: white;
     padding-top: 43%;
-    font-size: 18px;
+    font-size: 26px;
 }
 .ecspiriant {
     padding-left: 15%;
-    height: 185vh;
+    height: 120vh;
     padding-top: 5%;
 
 }
 .ecspiriant .cell {
   display: inline-block;
-  padding:20% 0% 1% 12%;
+  padding:10% 2% 1% 10%;
 
   }
+.table1{
+    display: table;
+    width: 100%;
+    
+}
+.row1 {
+       padding-top: 10%;
+}
 
+footer .cell1 {
+   background: red;
+    display: table-cell;
+    
+    margin-right: 3%;
+}
+.adress {
+    width: 35%;
+}
+.mail {
+    width: 70%;
+}
+.cell3 {
+    display: inline-block;
+    padding: 5%;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -478,30 +499,42 @@ div .raund {
     height: 75vh;
     padding: 10%;
 }
+.cell3 {
+    display: inline-block;
+    padding: 5%;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
+}
 .ecspiriant {
-    padding-left: 5%;
+    padding-left: 3%;
     height: 85vh;
-    padding-top: 10%;
+    padding-top: 7%;
 
 }
-
+.ecspiriant .cell {
+    width: 20%;
+    margin-right: 2%;
+    text-align: center;
+    padding-left: 5%;
+   
+}
 .cell2 {
-        display: inline-block;
-        width: 33%;
-        vertical-align: top;
-        
-    }
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
 .cell2 img {
-        padding: 2px;
-        width: 100%;
-        
-    }
+    padding: 2px;
+    width: 100%;
+}
 .table2 {
         width: 80%;
 }
 .row2 {
         text-align: center;
 }
+
 }
 
 /* Medium Devices, Desktops */
@@ -538,17 +571,23 @@ div .line {
 .conteiner2 {
     text-align: center;
     height: 75vh;
-    padding: 10%;
+    padding: 7%;
 }
-
+.ecspiriant {
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.ecspiriant .cell {
+    padding-top: 2%;
+    padding-left: 2%;
+     margin-right: 2%;
+}
 .raund {
     width: 230px;
     height: 230px;
     border-radius: 50%;
     border: 10px solid yellow;
     font-size: 30px;
-    background: red;
-   
 }
 .raund p {
     text-align: center;
