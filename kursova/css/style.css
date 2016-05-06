@@ -260,9 +260,9 @@ height: 200vh;
 padding: 15px;
 }
 .ecspiriant {
-    height: 155vh;
-    padding: 15px;
-    padding-top: 35%; 
+    height: 185vh;
+
+      
 }
 .raund {
     width: 150px;
@@ -280,7 +280,8 @@ padding: 15px;
 }
 .ecspiriant .cell{
    padding-left: 35%;
-   background: red;
+   margin-top: 15%;
+   
 }
 .cell2 {
   display: inline-block;
@@ -436,9 +437,6 @@ div .line {
 #comment_bubble3:before {
     display: none;
 }
-.cell {
-display: inline-block;
-}
 .conteiner2 {
     height: 295vh;
     padding-bottom: 3%;
@@ -452,8 +450,7 @@ div .raund {
     border-radius: 50%;
     border: 10px solid yellow;
     font-size: 30px;
-    background: red;
-   
+       
 }
 .raund p {
     text-align: center;
@@ -467,10 +464,12 @@ div .raund {
     padding-top: 5%;
 
 }
-.ecspiriant.cell {
+.ecspiriant .cell {
   display: inline-block;
-  padding: 2%;
-}
+  padding:20% 0% 1% 12%;
+
+  }
+
 }
 
 /* Medium Devices, Desktops */
