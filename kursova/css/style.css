@@ -1,5 +1,5 @@
 body {
- font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 header {
 	background: #efefef;
@@ -38,17 +38,19 @@ header div img {
 h1 {
 	font-size: 28px;
 	padding: 15px;
+    font-weight: bold;
 }
 
 div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 	color: black;
 }
-
+.portfolio {
+    padding-bottom: 10%;
+}
 .transparent {
     opacity: 0.2;
     border: 1px solid black;
     width: 50vw;
-       
 }
 
 /*--------------------------------------------------*/
@@ -57,11 +59,8 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 	padding: 8%;
 	
 }
-.conteiner1 h3 {
-font-weight: bold;
-padding: 8% 2% 3% 2%;
-font-size: 20px;
-}
+
+
 .conteiner1 p, .conteiner1 h3 {
     color: #000;
 }
@@ -119,7 +118,9 @@ font-size: 20px;
 .col-md-5 .col-lg-5 {
 	color: black;
 }
-
+.conteiner2 h2 {
+    font-weight: bolder;
+}
 .conteiner2 p, .conteiner2 h3, .conteiner2 h2 {
     color: #000;
     padding-top: 3%;
@@ -222,9 +223,9 @@ header div img {
 	padding-top: 20px;
 }
 .conteiner1 h3 {
-font-weight: bold;
+font-weight: bolder;
 padding: 8% 2% 3% 2%;
-font-size: 20px;
+font-size: 2em;
 }
 #comment_bubble1 {
     width: auto;
@@ -358,6 +359,7 @@ form .yellow_button {
 footer {
 width: 100vw;
 }
+
 }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
@@ -373,6 +375,11 @@ padding: 55px;
 }
 footer {
 width: 100vw;
+}
+
+ .rectangle {
+    margin-left: -35%;
+   
 }
 }
 
@@ -436,10 +443,11 @@ div .line {
 }
 #comment_bubble2 {
     width: auto;
-    height: 180px;
+    height: 165px;
     background: #49def4;
     position: relative;
     padding: 5%;
+    padding-top: 7%;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -483,7 +491,7 @@ div .line {
 }
 .conteiner2 {
     padding-bottom: 3%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .raund {
     width: 200px;
@@ -567,6 +575,10 @@ form .yellow_button {
     margin-right: 2%;
     vertical-align: top;
 }
+.rectangle {
+    margin-left: -35%;
+   
+}
 }
 
 /* Medium Devices, Desktops */
@@ -616,7 +628,7 @@ div .line {
     margin: 0 auto;
 }
 .line {
-    height: 190px;
+    height: 200px;
     width: 3px;
     border-left: 1px solid #c1c1c1;
     position: relative;
@@ -672,9 +684,28 @@ div .line {
     width: 50vw;
 }
 .mail  form {
-     margin-left: 10%;
+     margin-left: 2%;
      padding: 0;
    }
+.triangle-bottomright {
+    float: right;
+    margin-right: -10vw;
+    margin-top: 1%;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff; 
+    border-left: 155vw solid transparent;
+}
+.triangle-bottomright1 {
+    float: left;
+    margin-left: -10vw;
+    margin-top: -3%;
+    width:  0;
+    height: 0;
+    border-top: 100px solid #fff; 
+    border-right: 155vw solid transparent;   
+
+}
 }
 
  /* Large Devices, Wide Screens */
@@ -695,5 +726,25 @@ header div {
     padding-left: 40%;
     
 }
-
+.triangle-bottomright {
+    float: right;
+    margin-right: -10vw;
+    margin-top: 2%;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #fff; 
+    border-left: 150vw solid transparent;
+}
+.triangle-bottomright1 {
+    float: left;
+    margin-left: -10vw;
+    margin-top: -11%;
+    width:  0;
+    height: 0;
+    border-top: 140px solid #fff; 
+    border-right: 130vw solid transparent;   
+}
+.portfolio {
+    padding-bottom: 10%;
+}
 }
