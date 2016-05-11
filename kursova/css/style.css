@@ -43,6 +43,14 @@ h1 {
 div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 	color: black;
 }
+
+.transparent {
+    opacity: 0.2;
+    border: 1px solid black;
+    width: 50vw;
+       
+}
+
 /*--------------------------------------------------*/
 .conteiner1 {
 	background: #efefef;
@@ -344,7 +352,7 @@ display: inline-block;
 }
 form .yellow_button {
    margin-top: 5%;
-   width: 100%;
+   width: 50vw;
    background: #fdc426;
 }
 footer {
@@ -522,9 +530,7 @@ footer .cell1 {
 }
 .mail {
     width: 90%;
-    
     padding-left: 15%;
-    background: blue;
 }
 
 .cell1 img {
@@ -548,11 +554,10 @@ footer .cell1 {
 .cell1 p {
 font-size: 16px;
 padding-bottom: 2%;
-background: blue;
 }
 form .yellow_button {
    margin-top: 5%;
-   width: 100%;
+   width: 50vw;
    background: #fdc426;
 }
 .cell3 {
@@ -595,11 +600,13 @@ form .yellow_button {
 } 
 .mail  form {
     width: 100%;
-    padding-left: 20%;
+    
    }
 .cell1 div {
     width: 300px;
 }
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -661,9 +668,12 @@ div .line {
     padding-top: 43%;
     font-size: 26px;
 }
-
+.transparent {
+    width: 50vw;
+}
 .mail  form {
-     margin-left: 30%;
+     margin-left: 10%;
+     padding: 0;
    }
 }
 
@@ -676,7 +686,11 @@ header div {
     text-align: center;
     padding: 7%;
 }
+.ecspiriant {
+    padding-top: 10%;
+    height: 800px;
 
+}
 .my_foto {
     padding-left: 40%;
     
