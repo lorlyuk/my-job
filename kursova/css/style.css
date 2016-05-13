@@ -1,5 +1,6 @@
 body {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1,5em;
 }
 header {
 	background: #efefef;
@@ -59,8 +60,6 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 	padding: 8%;
 	
 }
-
-
 .conteiner1 p, .conteiner1 h3 {
     color: #000;
 }
@@ -97,7 +96,6 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    
 }
 
 #comment_bubble3 {
@@ -131,8 +129,7 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 
 /*-----------------------------------------------------------*/
 .ecspiriant {
-    background-color:  #efefef;
-	background-image: url('../img/skills.png');
+    background-image: url('../img/skills.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
@@ -147,16 +144,13 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 	border-radius: 50%;
 	border: 10px solid yellow;
 	font-size: 30px;
-	
 }
 .raund p {
 	text-align: center;
 	color: white;
 	padding-top: 43%;
 }
-.portfolio {
-    background-color:  #efefef;
-}
+
 .portfolio h2 {
     color: #000;
     font-size: 30px;
@@ -172,7 +166,6 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
     display: table;
     margin: 0px auto;
     padding: 5px;
-    
 }
 .row2 {
     display: table-row;
@@ -180,7 +173,6 @@ div.row .col-md-1, .col-lg-1,.col-md-5, .col-lg-5 {
 }
 .cell2 {
     display: table-cell;
-
 }
 .cell2 img {
     padding: 1px;
@@ -277,7 +269,7 @@ font-size: 2em;
     border-right: 13px solid transparent;
 }
 .conteiner1 p {
-padding-bottom: 8%;
+   padding-bottom: 8%;
 }
 .conteiner2 h2 {
     padding-bottom: 5%;
@@ -322,7 +314,7 @@ padding: 25px;
 .cell2 img {
     padding: 5px;
     width: 90%;
-    }
+}
 .cell1 {
     display: inline-block;
     padding: 10%;
@@ -337,8 +329,8 @@ padding: 25px;
     padding-top: 35%; 
     padding-left: 25%;
 }
-.cell1 div p{
-display: inline-block;
+.cell1 div p {
+ display: inline-block;
  height: 30px;
  padding-top: 2%;
  padding-bottom: 2%;
@@ -364,7 +356,23 @@ width: 100vw;
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 .conteiner2 {
-padding: 55px;
+   padding: 55px;
+}
+#comment_bubble2 {
+    width: auto;
+    height: 135px;
+    padding: 5vw;
+}
+#comment_bubble2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    left: 45%;
+    top: 134px;
+    position: absolute;
+    border-top: 26px solid #49def4;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
 }
 .ecspiriant {
     width: 100vw;
@@ -376,10 +384,8 @@ padding: 55px;
 footer {
 width: 100vw;
 }
-
- .rectangle {
+.rectangle {
     margin-left: -35%;
-   
 }
 }
 
@@ -426,7 +432,6 @@ div .line {
     font-size: 18px;
     font-weight: bold;
 }
-
 #comment_bubble1:after {
     content: "";
     width: 0;
@@ -443,7 +448,7 @@ div .line {
 }
 #comment_bubble2 {
     width: auto;
-    height: 165px;
+    height: 170px;
     background: #49def4;
     position: relative;
     padding: 5%;
@@ -452,7 +457,6 @@ div .line {
     font-size: 18px;
     font-weight: bold;
 }
-
 #comment_bubble2:before {
     content: "";
     width: 0;
@@ -474,7 +478,6 @@ div .line {
     font-size: 18px;
     font-weight: bold;
  }
-
 #comment_bubble3:after {
    content: "";
     width: 0;
@@ -498,7 +501,6 @@ div .line {
     height: 200px;
     border-radius: 50%;
     border: 10px solid yellow;
-           
 }
 .raund p {
     text-align: center;
@@ -510,27 +512,23 @@ div .line {
     padding-left: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
-
 }
 .ecspiriant .cell {
   display: inline-block;
   padding:10% 2% 1% 10%;
-
-  }
+}
 .table1 {
     display: table;
     width: 100%;
-    
 }
 .row1 {
-       padding-top: 10%;
+    padding-top: 10%;
 }
 
 footer .cell1 {
     display: table-cell;
     padding: 5%;
     margin-right: 3%;
-    
 }
 .adress {
     padding-left: 15%;
@@ -540,7 +538,6 @@ footer .cell1 {
     width: 90%;
     padding-left: 15%;
 }
-
 .cell1 img {
     display: inline-block;
     padding: 3% 3%;
@@ -553,7 +550,6 @@ footer .cell1 {
 }
 .cell1 h2, .cell1 h3 {
     padding: 7%; 
-    
 }
 .cell1 h2 {
     font-weight: bolder;
@@ -612,8 +608,7 @@ form .yellow_button {
 } 
 .mail  form {
     width: 100%;
-    
-   }
+}
 .cell1 div {
     width: 300px;
 }
@@ -657,6 +652,7 @@ div .line {
 }
 
 .ecspiriant {
+    background-color:  #efefef;
     padding-top: 2%;
     padding-left: 5%;
 }
@@ -682,6 +678,9 @@ div .line {
 }
 .transparent {
     width: 50vw;
+}
+.portfolio {
+    background-color:  #efefef;
 }
 .mail  form {
      margin-left: 2%;
@@ -720,20 +719,18 @@ header div {
 .ecspiriant {
     padding-top: 10%;
     height: 800px;
-
 }
 .my_foto {
     padding-left: 40%;
-    
 }
 .triangle-bottomright {
     float: right;
     margin-right: -10vw;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 0;
     height: 0;
     border-bottom: 150px solid #fff; 
-    border-left: 150vw solid transparent;
+    border-left: 160vw solid transparent;
 }
 .triangle-bottomright1 {
     float: left;
@@ -741,8 +738,8 @@ header div {
     margin-top: -11%;
     width:  0;
     height: 0;
-    border-top: 140px solid #fff; 
-    border-right: 130vw solid transparent;   
+    border-top: 160px solid #fff; 
+    border-right: 140vw solid transparent;   
 }
 .portfolio {
     padding-bottom: 10%;
