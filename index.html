@@ -1,0 +1,300 @@
+<html>
+ <head>
+  
+ </head>
+ <body>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ Name:<br>
+  <input type="text" id="name"><br>
+  <button onclick="search()"> Search</button>
+  <div id="result"></div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ <script type="text/javascript">
+
+var academy = (function (){
+ var students = [
+  { name : "Іванов А",
+   group : 1,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Математика",
+   rating: "нб"
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Математика",
+   rating: 4
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Читання",
+   rating: 5
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Читання",
+   rating: 4
+  },
+ { name : "Іванов А",
+   group : 1,
+   subject: "Читання",
+   rating: 5
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Читання",
+   rating: 4
+  },
+  { name : "Іванов А",
+   group : 1,
+   subject: "Читання",
+   rating: 5
+  },
+{ name : "Іванов А",
+   group : 1,
+   subject: "фізкультура",
+   rating: 5
+  },
+{ name : "Іванов А",
+   group : 1,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+ { name : "Іванов А",
+   group : 1,
+   subject: "фізкультура",
+   rating: 5
+  },
+{ name : "Іванов А",
+   group : 1,
+   subject: "фізкультура",
+   rating: 5
+  },
+{ name : "Іванов А",
+   group : 1,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Математика",
+   rating: "нб"
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Математика",
+   rating: 4
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Математика",
+   rating: 5
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Читання",
+   rating: 5
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Читання",
+   rating: 4
+  },
+ { name : "Борисов А",
+   group : 2,
+   subject: "Читання",
+   rating: 5
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Читання",
+   rating: 4
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "Читання",
+   rating: 5
+  },
+{ name : "Борисов А",
+   group : 2,
+   subject: "фізкультура",
+   rating: 5
+  },
+{ name : "Борисов А",
+   group : 2,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+  { name : "Борисов А",
+   group : 2,
+   subject: "фізкультура",
+   rating: 5
+  },
+ { name : "Борисов А",
+   group : 2,
+   subject: "фізкультура",
+   rating: 5
+  },
+ { name : "Борисов А",
+   group : 2,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+{ name : "Маркун В",
+   group : 3,
+   subject: "Математика",
+   rating: 3
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Математика",
+   rating: "нб"
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Математика",
+   rating: 3
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Математика",
+   rating: 4
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Математика",
+   rating: 3
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Читання",
+   rating: 5
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Читання",
+   rating: 4
+  },
+ { name : "Маркун В",
+   group : 3,
+   subject: "Читання",
+   rating: 3
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Читання",
+   rating: 4
+  },
+  { name : "Маркун В",
+   group : 3,
+   subject: "Читання",
+   rating: 3
+  },
+{ name : "Маркун В",
+   group : 3,
+   subject: "фізкультура",
+   rating: 5
+  },
+{ name : "Маркун В",
+   group : 3,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+ { name : "Маркун В",
+   group : 3,
+   subject: "фізкультура",
+   rating: 3
+  },
+ { name : "Маркун В",
+   group : 3,
+   subject: "фізкультура",
+   rating: 5
+  },
+ { name : "Маркун В",
+   group : 3,
+   subject: "фізкультура",
+   rating: "нб"
+  },
+
+ ];
+
+  var searchByName = function(name){
+    var result = [];
+    for (var i = 0; i < students.length; ++i) {
+     if (students [i].name == name) {
+      result.push(students [i]);
+     }
+    }
+    return result;
+   };
+return {
+ searchByName: searchByName,
+};
+})();
+function search(){
+  var res =[];
+  var notres = "Sorry"
+  var name = $('#name').val();
+  if (name){
+  res = students.searchByName(name);
+  }
+  
+  var resultText = '';
+  for (var i = 0; i  < res.length; ++i){
+   resultText += "p" + res[i].name + "p" ;
+  };
+
+/*
+var group = [1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,];
+var students =["Іванов А", "Перов В", "Борисов У", "Берташ П", "Білюк М", "Онищук В", "Кулакевич Л", "Бендюк О", "Скаковець А", "Бобрик В", "Ванов Р", "Серов В", "Горисов В", "Мерташ П", "Гілюк М", "Конищук В", "Булабевич Л", "Мендюк О", "Скакун А", "Нобрик В","Бананов Р", "Укеров В", "Дорисовка В", "Нарташ Р", "Ділюк М", "Конинончук В", "Дьомін Л", "Ледюк О", "Маркун А", "Норик В"];
+var subject = ["mathematics", "history", "music", "chemistry", "biology"];
+var  rating = [1,2,"n",3,4,5,"n",6,7,8"n",9,10];
+var assArray = createAssociativeArray(group, students);
+
+
+
+
+/*for(var i = 0; i < group.length; i++){
+		for(var j = 0; j < students.length; j++){
+			for(var x = 0; x < subject.length; x++){
+				object.push [i][j][x] = '['+(i+1)+','+(j+1)+']';
+			}
+
+		}
+}
+
+function createAssociativeArray(group, students) {
+    var arr = {};
+    for(var i = 0, ii = group.length; i<ii; i++) {
+        arr[group[i]] = students[i];
+    }
+    return arr;
+}
+
+ /
+ </script>	
+ </body>
+ </html>
